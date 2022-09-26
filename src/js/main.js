@@ -1,8 +1,5 @@
-const apiKey = {
-  weatherApi: 'd65a3c03ce05ba6beb52323cc4b4221a',
-  countryApi: 'https://countryflagsapi.com/png/',
-  weatherIcon: 'https://openweathermap.org/img/wn/'
-}
+
+import apiKey from './config.js'
 
 const cityInput = document.querySelector('#city-input')
 const searchBtn = document.querySelector('#search')
